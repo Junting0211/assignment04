@@ -17,7 +17,12 @@ This website is made up of two students from Computer Science major (Islomzhan a
 - The students chosen all have intersts in webpage design
 
 ## Taxonomy
-- 
+- Main Taxonomy
+  - Islomzhan Akhmedov
+  - Dewey Bazirake
+  - Xueying Chen
+- Sub Taxonomy
+  - Background Info
+  - Majors and Concentrations
 
 ## Choreography
-
