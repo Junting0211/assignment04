@@ -26,3 +26,4 @@ This website is made up of two students from Computer Science major (Islomzhan a
   - Majors and Concentrations
 
 ## Choreography
+The website is ordered by the two Computer Science students and followed by the "special" Entrepreneurship student. And each students will have an individual page describing their background information plus major and their concentration areas. 
