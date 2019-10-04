@@ -4,12 +4,19 @@ include "inc/html-top.inc";
 ?>
 
 <body>
+	<nav>
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="islomzhan.php">Islomzhan Akhmedov</a></li>
+			<li><a href="dewey.php">Dewey Bazirake</a></li>
+			<li><a href="xueying.php">Xueying Chen</a></li>
+		</ul>
+	</nav>
+
 	<header>
 		<h1>Islomzhan Akhmedov</h1>
 		<img src="images/islomzhan.jpg" alt="islomzhan">
 	</header>
-
-	
 	
 	<article>
 		<section>

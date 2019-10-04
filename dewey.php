@@ -4,6 +4,15 @@ include "inc/html-top.inc";
 ?>
 
 <body>
+	<nav>
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="islomzhan.php">Islomzhan Akhmedov</a></li>
+			<li><a href="dewey.php">Dewey Bazirake</a></li>
+			<li><a href="xueying.php">Xueying Chen</a></li>
+		</ul>
+	</nav>
+
 	<header>
 		<h1>Dewey Bazirake</h1>
 		<img src="images/dewey.jpg" alt="dewey">
