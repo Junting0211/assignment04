@@ -6,7 +6,10 @@ include "inc/html-top.inc";
 <body>
 	<header>
 		<h1>Islomzhan Akhmedov</h1>
+		<img src="images/islomzhan.jpg" alt="islomzhan">
 	</header>
+
+	
 	
 	<article>
 		<section>
@@ -15,9 +18,11 @@ include "inc/html-top.inc";
 		</section>
 		<section>
 			<h2>My Major</h2>
-			<p></p>
+			<p>My major is Computer Science. Here is a list of the projects I have worked on. Toyzland.com - this is a website that sells toys online. I made this ecommerce website for my friend's store. LoyalFarm - it is a mobile app that lets people to buy their groceries online. I am now working on this project and soon it will be possible to use, hopefully, before the end of this year. SpaceShooter - two years ago, I made this 2D space game that even the spaceships were designed by me.</p>
 		</section>
 	</article>
+
+	<footer>CSC 174: Advanced Front-end Web Design and Development</footer>
 
 </body>
 </html>

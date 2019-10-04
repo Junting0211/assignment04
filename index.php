@@ -19,9 +19,9 @@ include "inc/html-top.inc";
 		</nav>
 
 		<div>
-			<img src="" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
+			<img src="images/islomzhan.jpg" alt="islomzhan">
+			<img src="images/dewey.jpg" alt="dewey">
+			<img src="xueying.jpg" alt="xueying">
 		</div><!--.slider-->
 
 		<main>
