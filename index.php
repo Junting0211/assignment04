@@ -21,7 +21,7 @@ include "inc/html-top.inc";
 	<div>
 		<img src="images/islomzhan.jpg" alt="islomzhan">
 		<img src="images/dewey.jpg" alt="dewey">
-		<img src="xueying.jpg" alt="xueying">
+		<img src="images/shelley.jpg" alt="xueying">
 	</div><!--.slider-->
 
 	<main>

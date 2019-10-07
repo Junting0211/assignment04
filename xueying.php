@@ -15,7 +15,7 @@ include "inc/html-top.inc";
 	
 	<header>
 		<h1>Xueying Chen</h1>
-		<img src="xueying.jpg" alt="xueying">
+		<img src="images/shelley.jpg" alt="xueying">
 	</header>
 
 	<article>
