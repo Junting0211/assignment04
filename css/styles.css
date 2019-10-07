@@ -20,6 +20,15 @@ a{
 	color: white;
 }
 
+nav li{
+	padding: 10px;
+}
+
+nav li:hover{
+	background-color: green;
+}
+
+
 /*   LAYOUT!!!!!   */
 
 nav li{
@@ -33,4 +42,5 @@ nav ul{
 nav{
 	float: right;
 }
+
 /*   STATE!!!!!!   */
