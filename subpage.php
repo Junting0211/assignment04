@@ -4,13 +4,16 @@ include "inc/html-top.inc";
 ?>
 
 <body class="f-pattern">
-<header class="persistent">
+<header>
 	<section>
 		<h1>Learn More About Us</h1>
 	</section>
+	<div>
 	<nav>
 		<a href="index.php">Home</a>
-	</nav>	
+	</nav>		
+	</div>
+	
 </header>
 	
 <article>

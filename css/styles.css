@@ -31,6 +31,10 @@ h1{
 	padding-right: 20px;
 }
 
+nav a{
+	font-size: 20px;
+}
+
 a{
 	color: white;
 }
@@ -42,6 +46,10 @@ a:hover{
 
 header{
 	background: linear-gradient(90deg, rgba(122,186,237,1) 0%, rgba(17,145,246,1) 26%, rgba(54,107,149,1) 63%, rgba(70,91,107,1) 100%);
+	position: fixed;
+	left:0;
+	width: 100%;
+	top:0;
 }
 
 /*   LAYOUT!!!!!!   */
@@ -64,7 +72,7 @@ body{
 .persistent{
 	position:fixed;
 	left:0;
-	width: 100%
+	width: 100%;
 }
 
 header.persistent{top:0;}
@@ -73,6 +81,19 @@ footer.persistent{bottom:0;}
 .container{
 	display:flex;
 	justify-content: space-between;
+}
+
+article{
+	padding-top: 70px;
+}
+
+.f-pattern header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.f-pattern footer{
+	padding-bottom: 15px;
 }
 
 /*   STATE!!!!!!   */
