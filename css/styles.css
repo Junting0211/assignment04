@@ -92,8 +92,16 @@ article{
 	justify-content: space-between;
 }
 
+.f-pattern nav a{
+	align-self: center;
+}
+
 .f-pattern footer{
 	padding-bottom: 15px;
+}
+
+.f-pattern article section, .cs-majors{
+	background-color: black;
 }
 
 /*   STATE!!!!!!   */
