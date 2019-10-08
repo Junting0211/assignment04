@@ -27,7 +27,7 @@ include "inc/html-top.inc";
 		<p>I am currently a senior who is majoring in Computer Science. I am also an international student from Uganda, East Africa currently studying in the United States. My belief in education to make a positive change has always been a driving factor in my academics, work and travel. My hope is that to learn the necessary skills in computer science, finance and management to lead organizations and companies that will make a fundamental change in our world. My love for numbers and making a change in the world has resulted in me taking an interest in Business, Computer Science & Robotics. During my Junior year, I went to study abroad in Shanghai, China which was a life changing experience. Aside from the great food that I enjoyed, I got a chance to put my python programming skills into practice. I worked with a startup called, MIRO AI - a sports AI company. </p>
 	</section>	
 	</div>
-	<section>
+	<section class="odd">
 		<h2>Take a Look at the Special Business Major</h2>
 		<h3>Xueying (Shelly) Chen</h3>
 		<img src="images/shelley.jpg" alt="shelly">
