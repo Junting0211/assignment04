@@ -1,5 +1,5 @@
 <?php 
-$currentPage = "Islomzhan Akhmedov | Assignment 04: Odd Student Out";
+$currentPage = "Learn More | Assignment 04: Odd Student Out";
 include "inc/html-top.inc";
 ?>
 
