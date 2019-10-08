@@ -28,7 +28,7 @@ include "inc/html-top.inc";
 	<section>
 		<h2>Take a Look at the Special Business Major</h2>
 		<h3>Xueying (Shelly) Chen</h3>
-		<img src="images/shelly.jpg" alt="shelly">
+		<img src="images/shelley.jpg" alt="shelly">
 		<p>I am senior at University of Rochester and I'm majoring in Business Entrepreneurship. I am a researcher, activist and writer of social entrepreneurship and social innovation. I worked on a research project in Beijing and Shenzhen investigating how Chinese social entrepreneurs help migrant workers integrate into urban society in China. In the past year, I led MBA teams and undergraduate teams to compete in various business competitions including Tibetan Innovation challenge, Hult Prize and New York Business Plan competition. This past summer I interned for a fintech company "MoneyMatch" to come up with a SEO strategy to improve their website's google organic listing and came up with content for their social media channels. I also worked for a venture capital firm in Kuala Lumpur where I streamlined deal-sourcing and worked with entrepreneurs help them achieve their goals.</p>
 	</section>
 </article>
