@@ -3,14 +3,14 @@ $currentPage = "Learn More | Assignment 04: Odd Student Out";
 include "inc/html-top.inc";
 ?>
 
-<body>
-<header>
+<body class="f-pattern">
+<header class="persistent">
 	<section>
 		<h1>Learn More About Us</h1>
 	</section>
 	<nav>
 		<a href="index.php">Home</a>
-	</nav>
+	</nav>	
 </header>
 	
 <article>
