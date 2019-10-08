@@ -13,7 +13,7 @@ include "inc/html-top.inc";
 	<section>
 		<!-- Strong Follow Area -->				
 		<h1>Team Seattle</h1>
-	</section>>
+	</section>
 	</div>
 </header>
 

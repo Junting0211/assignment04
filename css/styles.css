@@ -56,7 +56,7 @@ body{
 	max-width:1200px;
 }
 
-.z-pattern main{
+.big-message{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -72,7 +72,7 @@ body{
 header.persistent{top:0;}
 footer.persistent{bottom:0;}
 
-header.container, footer.container{
+.container{
 	display:flex;
 	justify-content: space-between;
 }
