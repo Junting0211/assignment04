@@ -8,7 +8,7 @@ include "inc/html-top.inc";
 	<div class="container">
 	<section>
 		<!-- Primary Optical Area -->
-		<img src="">
+		<h1>"Odd" Student "Out"</h1>
 	</section>
 	<section>
 		<!-- Strong Follow Area -->				
@@ -38,7 +38,7 @@ include "inc/html-top.inc";
 	</section>
 	<section>
 		<!-- Terminal Area -->
-		<a href="subpage.php">Click here to learn more</a>
+		<a href="subpage.php">Click Here to Learn More</a>
 	</section>
 	</div>
 </footer>
