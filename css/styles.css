@@ -56,4 +56,27 @@ body{
 	max-width:1200px;
 }
 
+.z-pattern main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh; /*vh viewport-height calculates vh dynamically */
+}
+
+.persistent{
+	position:fixed;
+	left:0;
+	width: 100%
+}
+
+header.persistent{top:0;}
+footer.persistent{bottom:0;}
+
+header.container, footer.container{
+	display:flex;
+	justify-content: space-between;
+}
+
 /*   STATE!!!!!!   */
+
+
