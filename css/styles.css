@@ -149,10 +149,19 @@ article section{
 }
 
 .cs-majors h3{
-	grid-column: 2 / 3;
-	grid-row: 2 / 3;
+	grid-row: 1;
+	grid-column: 2;
 }
 
+.cs-majors img{
+	grid-column: 1;
+	grid-row: span 2 / span 4; /* i was looking at havana's when i got the idea for span */
+}
+
+.cs-majors p{
+	grid-row: 2;
+	grid-column: 2;
+}
 
 
 
