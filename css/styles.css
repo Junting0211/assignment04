@@ -124,6 +124,7 @@ footer.persistent{bottom:0;}
 .container{
 	display:flex;
 	justify-content: space-between;
+	margin: 10px;
 }
 
 /* ******************
