@@ -30,7 +30,10 @@ h1{
 	text-shadow: 1px 1px 2px rgba(70,91,107,1);
 }
 
-/* @ TEAM, I've commented out the pictures in the HTML to work with the text better */
+/* ******************
+   @ TEAM, I've commented out the pictures in the HTML to work with the text better 
+ ******************** */
+
 .big-message section{
 	max-width: 50%;
 	background-color: rgba(105, 144, 173, 0.3);
@@ -162,8 +165,8 @@ article section{
 }
 
 .cs-majors img{
-	grid-column: 1;
-	grid-row: span 2 / span 4; /* i was looking at havana's when i got the idea for span */
+	grid-column: span 1 / 2;
+	grid-row: 2; /* i was looking at havana's when i got the idea for span */
 	margin: 20px;
 }
 
@@ -172,6 +175,23 @@ article section{
 	grid-column: 2;
 	padding-left: 20px;
 	padding-right: 30px;
+}
+
+.odd h2{
+	grid-column: 1 / span 2;
+}
+
+.odd img{
+	grid-row: 2;
+}
+
+.odd h3{
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.odd p{
+	grid-row: 3;
 }
 
 
