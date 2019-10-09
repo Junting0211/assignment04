@@ -27,3 +27,6 @@ This website is made up of two students from Computer Science major (Islomzhan a
 
 ## Choreography
 The website is ordered by the two Computer Science students and followed by the "special" Entrepreneurship student. And each students will have an individual page describing their background information plus major and their concentration areas. 
+
+## Style Architecture
+A variation of the SMACCS outline discussed in class was used. First, there's the base styles which include fonts, background colors, and any other aesthetic styling for the page. The layout section includes sections for the z-pattern and the f-pattern. The z-pattern follows closely what was done in class and the f-pattern is using grid-layouts in different sections of the page.
