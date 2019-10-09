@@ -1,0 +1,221 @@
+/* ****************************************************************
+   FONTS!!!!!!  
+ **************************************************************** */
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Nanum+Gothic:800&display=swap');
+
+/* sliders */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.Slides {display:none;}
+.slideshow img {vertical-align: middle;}
+
+.slideshow img {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+/* Slideshow container */
+.slideshow {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%
+  position: relative;
+  margin: 80px auto;
+  /*width: 240px;
+  height: 240px;*/
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+/* ****************************************************************
+   BASE!!!!!!  
+ **************************************************************** */
+
+body{
+	font-family: 'Nanum Gothic Coding', monospace;
+	background-color: #364958;
+	color: #A2BCE0;
+}
+
+h1, h2, h3{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1{
+	color: #364958;
+	text-shadow: 1px 1px 2px rgba(122,186,237,1);
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.follow h1{
+	color: rgba(122,186,237,1);
+	text-shadow: 1px 1px 2px rgba(70,91,107,1);
+}
+
+/* ******************
+   @ TEAM, I've commented out the pictures in the HTML to work with the text better 
+ ******************** */
+
+.big-message .intro{
+	max-width: 50%;
+	background-color: rgba(105, 144, 173, 0.3);
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+}
+
+nav a{
+	font-size: 20px;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	font-style: italic;
+	text-shadow: 1px 1px 2px white;
+}
+
+header{
+	background: linear-gradient(90deg, rgba(122,186,237,1) 0%, rgba(17,145,246,1) 26%, rgba(54,107,149,1) 63%, rgba(70,91,107,1) 100%);
+	position: fixed;
+	left:0;
+	width: 100%;
+	top:0;
+}
+
+.cs-majors{
+	background-color: rgba(105, 144, 173, 0.3);
+}
+
+.f-pattern .odd{
+	background-color: rgba(114, 90, 193, 0.3);
+}
+
+.odd, .cs-majors{
+	border-radius: 5px;
+}
+
+.f-pattern img{
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 1, 1, 0.19);
+}
+
+.f-pattern img:hover{
+	opacity: 0.7;
+	box-shadow: none;
+}
+
+
+/* ****************************************************************
+   LAYOUT!!!!!!  
+ **************************************************************** */
+
+body{
+	margin: 0 auto;
+	width: 95%;
+	max-width:1200px;
+}
+
+/* Thanks for the help prof :) */
+
+/* ******************
+   z-pattern 
+ ******************** */
+
+.big-message{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh; /*vh viewport-height calculates vh dynamically */
+}
+
+.persistent{
+	position:fixed;
+	left:0;
+	width: 100%;
+}
+
+header.persistent{top:0;}
+footer.persistent{bottom:0;}
+
+.container{
+	display:flex;
+	justify-content: space-between;
+}
+
+/* ******************
+   f-pattern 
+ ******************** */
+
+article{
+	margin-top: 100px;
+}
+
+.f-pattern header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.f-pattern nav a{
+	align-self: center;
+}
+
+.f-pattern footer{
+	padding-bottom: 15px;
+}
+
+.odd, .cs-majors{
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 20px;
+	margin: 20px;
+	padding-top: 10px;
+}
+
+article section{
+	display: grid;
+}
+
+.cs-majors h3{
+	grid-row: 1;
+	grid-column: 2;
+}
+
+.cs-majors img{
+	grid-column: span 1 / 2;
+	grid-row: 2; /* i was looking at havana's when i got the idea for span */
+	margin: 20px;
+}
+
+.cs-majors p{
+	grid-row: 2;
+	grid-column: 2;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.odd h2{
+	grid-column: 1 / span 2;
+}
+
+.odd img{
+	grid-row: 2;
+}
+
+.odd h3{
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.odd p{
+	grid-row: 3;
+}
