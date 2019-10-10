@@ -47,7 +47,7 @@ include "inc/html-top.inc";
 		<!-- Weak Visual Area -->
 		CSC 174: Advanced Front-end Web Design and Development
 	</section>
-	<section>
+	<section class="subpage">
 		<!-- Terminal Area -->
 		<a href="subpage.php">Click Here to Learn More</a>
 	</section>

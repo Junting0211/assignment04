@@ -114,6 +114,22 @@ header{
 	box-shadow: none;
 }
 
+.subpage a{
+	background-color: white;
+	padding: 20px;
+	color: #364958;
+	border-radius: 5px;
+}
+
+.subpage a:hover{
+	background-color: #364958;
+	color: white;
+	border-radius: 5px;
+}
+
+.subpage{
+	margin-bottom: 15px;
+}
 
 /* ****************************************************************
    LAYOUT!!!!!!  
@@ -145,7 +161,10 @@ body{
 }
 
 header.persistent{top:0;}
-footer.persistent{bottom:0;}
+footer.persistent{
+	bottom:0;
+	padding: 20px;
+}
 
 .container{
 	display:flex;
@@ -181,22 +200,27 @@ article{
 	padding-top: 10px;
 }
 
-article section{
+/*article section{
 	display: grid;
 }
 
 .cs-majors h3{
 	grid-row: 1;
 	grid-column: 2;
-}
+}*/
 
-.cs-majors img{
-	grid-column: span 1 / 2;
-	grid-row: 2; /* i was looking at havana's when i got the idea for span */
+.cs-majors img, .odd img{
+	/*grid-column: span 1 / 2;
+	grid-row: 2;*/ /* i was looking at havana's when i got the idea for span */
 	margin: 20px;
+	float: left;
 }
 
-.cs-majors p{
+.cs-majors section, .odd{
+	overflow: auto;
+}
+
+/*.cs-majors p{
 	grid-row: 2;
 	grid-column: 2;
 	padding-left: 20px;
@@ -218,4 +242,4 @@ article section{
 
 .odd p{
 	grid-row: 3;
-}
+}*/
