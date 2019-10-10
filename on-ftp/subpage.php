@@ -6,12 +6,11 @@ include "inc/html-top.inc";
 
 <body class="f-pattern">
 <header>
-	<section>
-		<h1>Learn More About Us</h1>
-	</section>
-	<nav>
+	<h1>Learn More About Us</h1>
+	<a href="index.php" class="go-home">Home</a>
+	<!--- <nav>
 		<a href="index.php">Home</a>
-	</nav>
+	</nav> --->
 </header>
 	
 <article>
